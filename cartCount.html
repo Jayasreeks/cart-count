@@ -1,0 +1,35 @@
+<!--This is a cart count example where it add the no of items in the cart and decrements the items when remove button is -->
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>cart page</title>
+        <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/1359181702/vector/shopping-cart-vector-icon-trolley-flat-design-illustration-business-concept-symbol-in-eps-10.jpg?s=612x612&w=0&k=20&c=k7cWYt8Zqay8YX3f8Vt4q1tQAWdx4OmYp1NVwnzmj5s=">    
+        <link rel="stylesheet" href="cartCount.css">
+    </head>
+    <body>
+            
+        <h1 id="heading">Cart Count</h1>
+        <div class="cart">
+           <img class="item" src="book1.jpg">
+           
+           <div class="discription">
+            <h3>Courage To Be Disliked, The: How to free yourself, change your life and achieve real happiness (Courage To series) Hardcover – 30 April 2018</h3>
+            <h5 class="dummy">400+ bought in past month</h5>
+            <h1 id="rupees">&#8377; 345</h1>
+            <h2> Quantity: </h2>
+            <h3 id="count">1</h3>
+
+               <div class="values">
+                   <button id="increment-btn" onclick="increment()">+</button>
+                   <button id="decrement-btn" onclick="decrement()">-</button>
+                   <button id="save-btn" onclick="save()">save Total</button>
+                 </div>
+            
+           </div> 
+
+        </div>
+            <h2 id ="total">Subtotal &#8377;</h2>
+        </div>   
+        <script src="cartCount.js"></script>  
+    </body>
+</html>

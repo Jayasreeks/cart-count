@@ -1,0 +1,58 @@
+body{
+    background: #0077b6;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#heading{
+    text-align: center;
+}
+.cart{
+    max-width:60%;
+    justify-content: space-between;
+    display: flex;
+    background: #90e0ef;
+    border: 5px solid #023e8a;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding:30px;
+}
+.item{
+   max-width:50%;
+   border: 6px solid white;
+   border-radius: 7px;
+   margin-right: 30px;
+
+}
+.discription{
+    background:#caf0f8;
+    border-radius: 7px;
+    padding: 10px 30px;
+}
+.dummy{
+    font-weight:lighter;
+}
+.values{
+    display: flex;
+    justify-content:center;
+}
+#increment-btn{
+    margin: 0 10px; 
+    padding: 3px 10px;
+}
+#decrement-btn{
+    margin: 0 10px; 
+    padding: 3px 10px;
+}
+#save-btn{
+    margin: 0 10px; 
+    padding: 3px 10px;
+}
+#total{
+    text-align:center;
+}
+button{
+    color: white;
+    background:#0077b6;
+    font-weight: bold;
+    border-radius:3px;
+}
+
